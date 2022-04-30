@@ -1,0 +1,342 @@
+html, body{
+		margin: 0;
+		padding: 0;
+		font-size: 14px;
+		line-height: 1.6em;
+}
+body{
+	background-color: #FFFCEB;   
+}
+a{
+	color: blue;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+h2, .heading{
+	font-size: 22px;
+	font-style: italic;
+	font-weight: normal;
+	font-family:georgia; 
+	line-height: normal;
+	margin: 0px 0px 20px;
+	text-transform: capitalize;
+}
+article, footer{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.wrap{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	word-wrap: break-word;
+}
+/*Row
+-----------------------------*/
+
+.row1{
+	color:#00008B;
+	background-color:#FFFCEB;  
+}
+.row2{
+	color:blue;
+	background-color:#FBDB14;  
+}
+.row3{
+	color: black;
+	background-color: #FFFCEB;
+
+}
+.row4{
+	color: white;
+	background-color: black;
+}
+
+/*navigasi
+---------------------------------------------------*/
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#mainav{line-height: normal;}
+nav{
+	margin: 0px;
+	padding: 0px;
+}
+.sticky{
+	position: sticky;
+}
+#mainav .active a{
+	background-color: inherit;
+	color: black;
+}
+#mainav a:hover{
+	background-color: inherit;
+	color:red;
+}
+#mainav li:hover > a {
+	background-color: inherit;
+	color: red;
+
+}
+#mainav li li{
+	margin: 0px;
+	width: 100%;
+}
+#mainav li{
+	display: inline-block;
+	margin: 0px 30px 0px 0px;
+	padding: 0px;
+	position: relative;
+
+}
+#mainav ul{
+	text-transform: uppercase;
+}
+#mainav li a{
+	color: #00008B;
+	display: block;
+	padding: 20px 0px;
+}
+
+
+
+
+
+/* Header
+------------------------------------------*/
+#header{
+	padding: 68px 0;
+}
+#header #logo *{ 
+	margin: 0px;
+	padding: 0;
+	line-height: 1;
+}
+#header #logo img{
+	width: 119px;
+	margin-top: -11px;
+}
+#header #quickinfo{
+	font-size: 11px;
+	text-transform: uppercase;
+
+}
+#header #quickinfo li{
+	margin-right: 50px;
+
+}
+#header #quickinfo li:last-child{
+	margin-right: 0;
+
+}
+#header #quickinfo strong{
+	display: block;
+	margin: 0 0 -5px 0; 
+	padding: 0; 
+	font-size: 12px; 
+}
+#header #quickinfo br{
+	display: none;
+}
+.hoc{
+	max-width: 978px;
+}
+.hoc{
+	display: block;
+	margin: 0 auto;
+}
+.clear{
+	display: block;
+	clear: both;
+}
+
+.fl_left{
+	float: left;
+}
+.fl_right{
+	float: right;
+}
+.nospace{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.inline *{
+  display:inline-block;
+}
+.inline *:last-child{
+  margin-right:0;
+}
+
+/* atikel keutamaan
+-----------------------------------------------------------------*/
+.overlay{
+	position: relative;
+	z-index: 1;
+	background-color: inherit;
+	color: red;
+}
+#bgartikel{
+	background-position: 50% 0%;
+	background-image:url(galeri/gmbrb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#keutamaan p{
+	font-size: 18px;
+}
+
+/*page
+-----------------------------------*/
+#pageintro{
+	padding: 150px 0px;
+}
+#pageintro article div{
+	margin-bottom: 80px;
+}
+#pageintro article div .heading{
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+#pageintro article div *{
+	line-height: 1;
+	margin: 0px;
+	padding: 0px;
+}
+.pushright li{
+	margin-right: 20px;
+}
+/*untuk tombol link
+-----------------------------------*/
+#pageintro article footer a{
+	position: relative;
+	display: inline-block;
+	padding: 12px 36px;
+	margin: 10px 0px;
+	color: brown;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	background: linear-gradient(90deg,#72fd5b,#d9fd5b);
+
+}
+
+/* row 3
+-----------------------------------------------*/
+.container{
+	padding: 80px 0px;
+}
+#hayu{
+	margin-bottom: 80px ;
+}
+.kolom{
+	margin-bottom: 80px;
+}
+.one{
+	width: 22%;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 0px 20px;
+	list-style: none;
+
+}
+.first{
+	clear: left;
+	margin-left: 0px;
+
+}
+.row3 article div h6{
+	font-size: 22px;
+	font-family: georgia;
+	margin: 0px
+}
+.two{
+	width: 74%;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 0px 3.6%;
+}
+.two p{
+	font-size: 15px;
+	text-align: justify;
+	font-family: georgia;
+}
+
+
+/*foto*/
+#foto {
+	margin:0px 20%;
+	padding: 25px
+}
+/*-------------*/
+.lihat{
+	width: 100%;
+	height: 200px;
+	margin: 10  px 50px;
+}
+.lihat a{
+	width: 80px;
+	display: inline-block;
+	margin: 10px 20%;
+	font-size: 18px;
+	background-color: gold;
+	border: 5px solid black;
+}
+/* footer
+----------------------------------------*/
+#footer{
+	padding:80px 0px 50px;
+}
+.footer{
+	margin-bottom: 30px;
+	list-style: square;
+}
+.list{
+	margin-top: 50px;
+	font-size: 15px;
+}
+/*untuk membuat artikel/galeri
+------------------------------------------------*/
+.artikel, .galeri, .visi{
+	margin: 0px 20% 10px;
+	padding: 50px;
+	text-align: justify;
+	font-family: georgia;
+}
+.memphis{
+	background-image: url(memphis.png);
+}
+.galeri h2{
+	font-size: 32px;
+	margin: 0px 33%;
+	padding: 20px;
+}
+/*membuat spasi di awal paragraf*/
+.artikel p{
+	text-indent: 60px;
+}
+
+/*artikel 2
+------------------------------------------------------*/
+#mainav #aktif a{
+	background-color: inherit;
+	color: red;
+}
+/*file visi
+--------------------------------------------------------*/
+.visi h2{
+	padding: 2px ;
+	margin: 0px 48%;
+	font-size: 32px;
+}
+.visi p{
+	text-align: center;	
+	font-family: georgia;
+}
